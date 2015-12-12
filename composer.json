@@ -1,0 +1,36 @@
+{
+    "name": "onlinesid/bolt-extension-ui-bootstrap-carousel",
+    "description": "An extension to display a UI Bootstrap Carousel from a Bolt contenttype record.",
+    "type": "bolt-extension",
+    "keywords" : [
+        "ui bootstrap",
+        "carousel",
+        "slider",
+        "bolt extension",
+        "angular bootstrap"
+    ],
+    "require": {
+        "bolt/bolt": ">=2.0.0,<3.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sid Bachtiar",
+            "email": "sid.bachtiar@gmail.com",
+            "homepage": "https://www.givemequotes.co.nz"
+        }
+    ],
+	"minimum-stability" : "dev",
+	"prefer-stable" : true,
+    "autoload": {
+        "files": [
+            "init.php"
+        ],
+        "psr-4": {
+            "Bolt\\Extension\\OnlineSid\\UIBootstrapCarousel\\": ""
+        }
+    },
+    "extra": {
+        "bolt-assets": "assets"
+    }
+}

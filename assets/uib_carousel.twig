@@ -1,0 +1,12 @@
+<uib-carousel interval="{{ interval }}" no-wrap="{{ no_wrap }}">
+    {% for image in images %}
+        {% if loop.first %}{% set active = 'true' %}{% else %}{% set active = 'false' %}{% endif %}
+        <uib-slide active="{{ active }}">
+            <img src="{{ app.paths.files ~ image.filename }}"
+                 style="margin:0;padding:0;width:100%;">
+            <div class="carousel-caption">
+                <h4>{{ image.title }}</h4>
+            </div>
+        </uib-slide>
+    {% endfor %}
+</uib-carousel>
