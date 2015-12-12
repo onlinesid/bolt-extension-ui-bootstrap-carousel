@@ -20,7 +20,7 @@
             "homepage": "https://www.givemequotes.co.nz"
         }
     ],
-	"minimum-stability" : "dev",
+	"minimum-stability" : "stable",
 	"prefer-stable" : true,
     "autoload": {
         "files": [
