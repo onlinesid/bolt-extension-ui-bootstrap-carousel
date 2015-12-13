@@ -1,13 +1,13 @@
 <?php
 
-namespace Bolt\Extension\OnlineSid\UIBoostrapCarousel;
+namespace Bolt\Extension\OnlineSid\UIBootstrapCarousel;
 
 use Bolt\BaseExtension;
 
 /**
  * Class Extension
  *
- * @package Bolt\Extension\OnlineSid\UIBoostrapCarousel
+ * @package Bolt\Extension\OnlineSid\UIBootstrapCarousel
  */
 class Extension extends BaseExtension
 {
@@ -18,7 +18,7 @@ class Extension extends BaseExtension
      */
     public function getName()
     {
-        return "UIBoostrapCarousel";
+        return "UI Bootstrap Carousel";
     }
 
     /**

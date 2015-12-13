@@ -1,5 +1,5 @@
 <?php
 
-use Bolt\Extension\OnlineSid\UIBoostrapCarousel\Extension;
+use Bolt\Extension\OnlineSid\UIBootstrapCarousel\Extension;
 
 $app['extensions']->register(new Extension($app));
